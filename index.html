@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/styles/normalize.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__inner">
+                <div class="header__grid">
+                    <div class="header__left-mobile">
+                        <div class="header__burger">
+                            <button class="header__burger-toggle" id="mobile-burger-toggle">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div>
+                        <button class="header__theme">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle cx="12" cy="12" r="5" stroke="#f9fffe" stroke-width="1.5"></circle> <path d="M12 2V4" stroke="#f9fffe" stroke-width="1.5" stroke-linecap="round"></path> <path d="M12 20V22" stroke="#f9fffe" stroke-width="1.5" stroke-linecap="round"></path> <path d="M4 12L2 12" stroke="#f9fffe" stroke-width="1.5" stroke-linecap="round"></path> <path d="M22 12L20 12" stroke="#f9fffe" stroke-width="1.5" stroke-linecap="round"></path> <path d="M19.7778 4.22266L17.5558 6.25424" stroke="#f9fffe" stroke-width="1.5" stroke-linecap="round"></path> <path d="M4.22217 4.22266L6.44418 6.25424" stroke="#f9fffe" stroke-width="1.5" stroke-linecap="round"></path> <path d="M6.44434 17.5557L4.22211 19.7779" stroke="#f9fffe" stroke-width="1.5" stroke-linecap="round"></path> <path d="M19.7778 19.7773L17.5558 17.5551" stroke="#f9fffe" stroke-width="1.5" stroke-linecap="round"></path> </g></svg>
+                        </button>
+                    </div>
+                    <nav class="header__nav">
+                        <a href="#about" class="header__nav-link">Про мене</a>
+                        <a href="#work" class="header__nav-link">Роботи</a>
+                        <a href="#services" class="header__nav-link">Послуги</a>
+                        <a href="#" class="header__nav-link">EN</a>
+                    </nav>
+                    <div class="header__logo logo">
+                        <a href="/" class="logo__link"><span>Олег</span> Шашкевич</a>
+                    </div>
+                    <div class="header__buttons">
+                        <button class="header__theme header__theme--desktop">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle cx="12" cy="12" r="5" stroke="#f9fffe" stroke-width="1.5"></circle> <path d="M12 2V4" stroke="#f9fffe" stroke-width="1.5" stroke-linecap="round"></path> <path d="M12 20V22" stroke="#f9fffe" stroke-width="1.5" stroke-linecap="round"></path> <path d="M4 12L2 12" stroke="#f9fffe" stroke-width="1.5" stroke-linecap="round"></path> <path d="M22 12L20 12" stroke="#f9fffe" stroke-width="1.5" stroke-linecap="round"></path> <path d="M19.7778 4.22266L17.5558 6.25424" stroke="#f9fffe" stroke-width="1.5" stroke-linecap="round"></path> <path d="M4.22217 4.22266L6.44418 6.25424" stroke="#f9fffe" stroke-width="1.5" stroke-linecap="round"></path> <path d="M6.44434 17.5557L4.22211 19.7779" stroke="#f9fffe" stroke-width="1.5" stroke-linecap="round"></path> <path d="M19.7778 19.7773L17.5558 17.5551" stroke="#f9fffe" stroke-width="1.5" stroke-linecap="round"></path> </g></svg>
+                        </button>
+                        <a href="#contact" class="header__button button">Написати</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__mobile">
+            <div class="container header__container">
+                <nav class="header__mobile-nav">
+                    <a href="#about" class="header__mobile-nav-link">Про мене</a>
+                    <a href="#work" class="header__mobile-nav-link">Роботи</a>
+                    <a href="#services" class="header__mobile-nav-link">Послуги</a>
+                    <a href="#" class="header__mobile-nav-link">EN</a>
+                </nav>
+            </div>
+        </div>
+        <div class="header__bg"></div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero__background"></div>
+            <div class="container hero__container">
+                <div class="hero__inner">
+                    <h1 class="hero__heading">Веб розробка та створення сайтів з майбутнього</h1>
+                    <div class="hero__buttons">
+                        <a href="#work" class="hero__button invert">Понуритись глибше</a>
+                        <a href="#services" class="hero__button">Дивитись послуги</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <img class="about__img" src="assets/images/about.jpg" alt="">
+            <div class="container about__container">
+                <div class="about__grid">
+                    <div class="about__description">
+                        <p class="about__description-pill pill">Про мене</p>
+                        <div class="about__description-heading">
+                            <h2 class="heading-2" id="animated-text"></h2>
+                        </div>
+                        <p class="about__description-text text">Я - Олег, фронтенд-розробник з Дніпра, Україна. <span class="light-color">Моє прагнення - створювати вебсайти, які випереджають час</span>, забезпечуючи найвищий рівень фронтенду та розробки. Я завжди у пошуку нових технологій і намагаюся втілювати інноваційні рішення у кожен проєкт.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="work" id="work">
+            <div class="container work__container">
+                <div class="work__inner">
+                    <p class="work__pill pill">Роботи</p>
+                    <div class="work__heading">
+                        <h2 class="heading-2">Понуритись глибше</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="work__slider">
+                <div class="work__slider-controls">
+                    <button class="prev">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                            aria-hidden="true" data-slot="icon">
+                            <path fill-rule="evenodd"
+                                d="M7.72 12.53a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 1 1 1.06 1.06L9.31 12l6.97 6.97a.75.75 0 1 1-1.06 1.06l-7.5-7.5Z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                    <button class="next">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                            aria-hidden="true" data-slot="icon">
+                            <path fill-rule="evenodd"
+                                d="M16.28 11.47a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 0 1-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 0 1 1.06-1.06l7.5 7.5Z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div class="work__slider-wrapper">
+                    <ul class="work__slider-list">
+                        <li class="work__slider-item" data-item-index="0" aria-current="true">
+                            <a href="https://nreach.io" class="work__slider-link" target="_blank">
+                                <article>
+                                    <div>
+                                        <time datetime="2024-06-01">Червень 2024</time>
+                                    </div>
+                                    <div>
+                                        <h3>Nreach.io</h3>
+                                    </div>
+                                    <div>
+                                        <p>Оновлення головної</p>
+                                    </div>
+                                </article>
+                                <img src="assets/images/nreach.png" alt="">
+                            </a>
+                        </li>
+                        <li class="work__slider-item" data-item-index="0" aria-current="true">
+                            <a href="https://yuliadoula.co.il/" class="work__slider-link" target="_blank">
+                                <article>
+                                    <div>
+                                        <time datetime="2024-06-01">Червень 2024</time>
+                                    </div>
+                                    <div>
+                                        <h3>Yulia Doula</h3>
+                                    </div>
+                                    <div>
+                                        <p>Оновлення та доступність</p>
+                                    </div>
+                                </article>
+                                <img src="assets/images/doula.png" alt="">
+                            </a>
+                        </li>
+                        <li class="work__slider-item" data-item-index="0" aria-current="true">
+                            <a href="https://lvivconcept.com" class="work__slider-link" target="_blank">
+                                <article>
+                                    <div>
+                                        <time datetime="2024-05-01">Травень 2024</time>
+                                    </div>
+                                    <div>
+                                        <h3>LvivConcept</h3>
+                                    </div>
+                                    <div>
+                                        <p>Розробка</p>
+                                    </div>
+                                </article>
+                                <img src="assets/images/lvivconcept.png" alt="">
+                            </a>
+                        </li>
+                        <li class="work__slider-item" data-item-index="0" aria-current="true">
+                            <a href="https://www.zoozpower.com/Power2Drive/" class="work__slider-link" target="_blank">
+                                <article>
+                                    <div>
+                                        <time datetime="2024-05-01">Травень 2024</time>
+                                    </div>
+                                    <div>
+                                        <h3>ZooZ Power</h3>
+                                    </div>
+                                    <div>
+                                        <p>Лендінг</p>
+                                    </div>
+                                </article>
+                                <img src="assets/images/zooz-lp.png" alt="">
+                            </a>
+                        </li>
+                        <li class="work__slider-item" data-item-index="1" aria-current="false">
+                            <a href="https://novyremont.com/" class="work__slider-link" target="_blank">
+                                <article>
+                                    <div>
+                                        <time datetime="2024-04-01">Квітень 2024</time>
+                                    </div>
+                                    <div>
+                                        <h3>Novy Remont</h3>
+                                    </div>
+                                    <div>
+                                        <p>Розробка</p>
+                                    </div>
+                                </article>
+                                <img src="assets/images/novyremont.png" alt="">
+                            </a>
+                        </li>
+                        <li class="work__slider-item" data-item-index="3" aria-current="false">
+                            <a href="https://study-roads.com" class="work__slider-link" target="_blank">
+                                <article>
+                                    <div>
+                                        <time datetime="2024-04-01">Квітень 2024</time>
+                                    </div>
+                                    <div>
+                                        <h3>Study Roads Menu</h3>
+                                    </div>
+                                    <div>
+                                        <p>Оновлення</p>
+                                    </div>
+                                </article>
+                                <img src="assets/images/loyola.png" alt="">
+                            </a>
+                        </li>
+                        <li class="work__slider-item" data-item-index="3" aria-current="false">
+                            <a href="https://www.pcbflow.com" class="work__slider-link" target="_blank">
+                                <article>
+                                    <div>
+                                        <time datetime="2024-04-01">Квітень 2024</time>
+                                    </div>
+                                    <div>
+                                        <h3>PCBflow</h3>
+                                    </div>
+                                    <div>
+                                        <p>Оновлення та AB-тестування</p>
+                                    </div>
+                                </article>
+                                <img src="assets/images/pcbflow.png" alt="">
+                            </a>
+                        </li>
+                        <li class="work__slider-item" data-item-index="3" aria-current="false">
+                            <a href="https://ir.melisron.co.il" class="work__slider-link" target="_blank">
+                                <article>
+                                    <div>
+                                        <time datetime="2024-03-01">Березень 2024</time>
+                                    </div>
+                                    <div>
+                                        <h3>Melisron</h3>
+                                    </div>
+                                    <div>
+                                        <p>Створення JS графіка</p>
+                                    </div>
+                                </article>
+                                <img src="assets/images/melisron.png" alt="">
+                            </a>
+                        </li>
+                        <li class="work__slider-item" data-item-index="3" aria-current="false">
+                            <a href="https://iscanrobotics.com" class="work__slider-link" target="_blank">
+                                <article>
+                                    <div>
+                                        <time datetime="2024-03-01">Березень 2024</time>
+                                    </div>
+                                    <div>
+                                        <h3>ISCAN Robotics</h3>
+                                    </div>
+                                    <div>
+                                        <p>Frontend Розробка</p>
+                                    </div>
+                                </article>
+                                <img src="assets/images/iscan.png" alt="">
+                            </a>
+                        </li>
+                        <li class="work__slider-item" data-item-index="0" aria-current="true">
+                            <a href="https://avivcomp.co.il/" class="work__slider-link" target="_blank">
+                                <article>
+                                    <div>
+                                        <time datetime="2024-02-01">Лютий 2024</time>
+                                    </div>
+                                    <div>
+                                        <h3>Aviv Group</h3>
+                                    </div>
+                                    <div>
+                                        <p>Оновлення</p>
+                                    </div>
+                                </article>
+                                <img src="assets/images/aviv.png" alt="">
+                            </a>
+                        </li>
+                        <li class="work__slider-item" data-item-index="2" aria-current="false">
+                            <a href="https://kisu.co.il" class="work__slider-link" target="_blank">
+                                <article>
+                                    <div>
+                                        <time datetime="2024-01-01">Січень 2024</time>
+                                    </div>
+                                    <div>
+                                        <h3>KISU</h3>
+                                    </div>
+                                    <div>
+                                        <p>Елементор та оновлення</p>
+                                    </div>
+                                </article>
+                                <img src="assets/images/kisu.png" alt="">
+                            </a>
+                        </li>
+                        <li class="work__slider-item" data-item-index="4" aria-current="false">
+                            <a href="https://together-ua.com" class="work__slider-link" target="_blank">
+                                <article>
+                                    <div>
+                                        <time datetime="2023-11-01">Листопад 2023</time>
+                                    </div>
+                                    <div>
+                                        <h3>Together UA</h3>
+                                    </div>
+                                    <div>
+                                        <p>Розробка та хостинг</p>
+                                    </div>
+                                </article>
+                                <img src="assets/images/together.png" alt="">
+                            </a>
+                        </li>
+                        <li class="work__slider-item" data-item-index="3" aria-current="false">
+                            <a href="https://interschool.online" class="work__slider-link" target="_blank">
+                                <article>
+                                    <div>
+                                        <time datetime="2023-08-01">Серпень 2023</time>
+                                    </div>
+                                    <div>
+                                        <h3>Interschool Online</h3>
+                                    </div>
+                                    <div>
+                                        <p>Розробка та підтримка</p>
+                                    </div>
+                                </article>
+                                <img src="assets/images/interschool.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="container work__scrollbar">
+                    <div class="work__scrollbar-inner">
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials" id="testimonials">
+            <div class="testimonials__canvas">
+                <canvas id="testimonialsSky"></canvas>
+            </div>
+            <div class="container testimonials__container">
+                <div class="testimonials__inner">
+                    <p class="testimonials__pill pill">Відгуки замовників</p>
+                    <div class="testimonials__heading">
+                        <h2 class="heading-2">Від найдобріших клієнтів</h2>
+                    </div>
+                    <p class="testimonials__text text">Ось короткий погляд на щирі враження від моїх неймовірних клієнтів.<br>Ваша довіра підживлює мою пристрасть.</p>
+                </div>
+            </div>
+            <div class="testimonials__marquee">
+                <ul class="testimonials__list">
+                    <li class="testimonials__item">
+                        <article class="testimonials__article">
+                            <blockquote class="testimonials__blockquote">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, quia repellat.
+                                Blanditiis nemo suscipit rem debitis assumenda natus nulla alias laborum, esse
+                                aspernatur doloribus dolor magnam, repellat voluptate laudantium autem.
+                            </blockquote>
+                            <div class="testimonials__author">
+                                <div class="testimonials__author-photo">
+                                    <img src="assets/images/about.jpg" alt="">
+                                </div>
+                                <div class="testimonials__author-info">
+                                    <h3>Oleh Shashkevych</h3>
+                                    <p>Mediator, Systemic Coach, Supervisor & Consultant</p>
+                                </div>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="testimonials__item">
+                        <article class="testimonials__article">
+                            <blockquote class="testimonials__blockquote">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate voluptates
+                                temporibus vitae commodi ea aut, fugit nostrum debitis distinctio corporis in esse
+                                architecto quisquam sunt obcaecati ullam quia eveniet maxime!
+                            </blockquote>
+                            <div class="testimonials__author">
+                                <div class="testimonials__author-photo">
+                                    <img src="assets/images/about.jpg" alt="">
+                                </div>
+                                <div class="testimonials__author-info">
+                                    <h3>Oleh Shashkevych</h3>
+                                    <p>Mediator, Systemic Coach, Supervisor & Consultant</p>
+                                </div>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="testimonials__item">
+                        <article class="testimonials__article">
+                            <blockquote class="testimonials__blockquote">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis ut cumque dicta
+                                rerum incidunt, quibusdam dolorem quos vitae impedit, modi repellat, repellendus
+                                doloribus. Suscipit nulla nobis inventore consectetur autem pariatur?
+                            </blockquote>
+                            <div class="testimonials__author">
+                                <div class="testimonials__author-photo">
+                                    <img src="assets/images/about.jpg" alt="">
+                                </div>
+                                <div class="testimonials__author-info">
+                                    <h3>Oleh Shashkevych</h3>
+                                    <p>Mediator, Systemic Coach, Supervisor & Consultant</p>
+                                </div>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="testimonials__item">
+                        <article class="testimonials__article">
+                            <blockquote class="testimonials__blockquote">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates dolorem eos sint
+                                architecto laudantium a dignissimos. Nulla minus praesentium ex vel eligendi. Laborum ex
+                                nam sit consectetur dicta dolorem quibusdam?
+                            </blockquote>
+                            <div class="testimonials__author">
+                                <div class="testimonials__author-photo">
+                                    <img src="assets/images/about.jpg" alt="">
+                                </div>
+                                <div class="testimonials__author-info">
+                                    <h3>Oleh Shashkevych</h3>
+                                    <p>Mediator, Systemic Coach, Supervisor & Consultant</p>
+                                </div>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="testimonials__item">
+                        <article class="testimonials__article">
+                            <blockquote class="testimonials__blockquote">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi architecto saepe
+                                sequi, beatae nostrum debitis, dignissimos id dicta necessitatibus corrupti laborum
+                                explicabo quas recusandae quidem dolore voluptates ad, velit illo! Lorem ipsum dolor sit
+                                amet consectetur adipisicing elit. Sit animi, esse perferendis iste debitis numquam,
+                                accusamus voluptates voluptas aliquam ad dolorem reiciendis recusandae inventore ipsa,
+                                sapiente blanditiis quam? Veniam, sit!
+                            </blockquote>
+                            <div class="testimonials__author">
+                                <div class="testimonials__author-photo">
+                                    <img src="assets/images/about.jpg" alt="">
+                                </div>
+                                <div class="testimonials__author-info">
+                                    <h3>Oleh Shashkevych</h3>
+                                    <p>Mediator, Systemic Coach, Supervisor & Consultant</p>
+                                </div>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="testimonials__item">
+                        <article class="testimonials__article">
+                            <blockquote class="testimonials__blockquote">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam expedita optio
+                                inventore doloribus sapiente impedit quod voluptatibus ipsa laudantium ad? Cupiditate
+                                natus distinctio veniam praesentium dolor excepturi laborum iste similique.
+                            </blockquote>
+                            <div class="testimonials__author">
+                                <div class="testimonials__author-photo">
+                                    <img src="assets/images/about.jpg" alt="">
+                                </div>
+                                <div class="testimonials__author-info">
+                                    <h3>Oleh Shashkevych</h3>
+                                    <p>Mediator, Systemic Coach, Supervisor & Consultant</p>
+                                </div>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="testimonials__item">
+                        <article class="testimonials__article">
+                            <blockquote class="testimonials__blockquote">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo tempore similique
+                                molestias, iste eligendi soluta accusamus praesentium quod ab cupiditate aliquid!
+                                Dolorem magnam corporis animi error ratione minus mollitia.
+                            </blockquote>
+                            <div class="testimonials__author">
+                                <div class="testimonials__author-photo">
+                                    <img src="assets/images/about.jpg" alt="">
+                                </div>
+                                <div class="testimonials__author-info">
+                                    <h3>Oleh Shashkevych</h3>
+                                    <p>Mediator, Systemic Coach, Supervisor & Consultant</p>
+                                </div>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+                <ul aria-hidden="true" class="testimonials__list">
+                    <li class="testimonials__item">
+                        <article class="testimonials__article">
+                            <blockquote class="testimonials__blockquote">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, quia repellat.
+                                Blanditiis nemo suscipit rem debitis assumenda natus nulla alias laborum, esse
+                                aspernatur doloribus dolor magnam, repellat voluptate laudantium autem.
+                            </blockquote>
+                            <div class="testimonials__author">
+                                <div class="testimonials__author-photo">
+                                    <img src="assets/images/about.jpg" alt="">
+                                </div>
+                                <div class="testimonials__author-info">
+                                    <h3>Oleh Shashkevych</h3>
+                                    <p>Mediator, Systemic Coach, Supervisor & Consultant</p>
+                                </div>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="testimonials__item">
+                        <article class="testimonials__article">
+                            <blockquote class="testimonials__blockquote">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate voluptates
+                                temporibus vitae commodi ea aut, fugit nostrum debitis distinctio corporis in esse
+                                architecto quisquam sunt obcaecati ullam quia eveniet maxime!
+                            </blockquote>
+                            <div class="testimonials__author">
+                                <div class="testimonials__author-photo">
+                                    <img src="assets/images/about.jpg" alt="">
+                                </div>
+                                <div class="testimonials__author-info">
+                                    <h3>Oleh Shashkevych</h3>
+                                    <p>Mediator, Systemic Coach, Supervisor & Consultant</p>
+                                </div>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="testimonials__item">
+                        <article class="testimonials__article">
+                            <blockquote class="testimonials__blockquote">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis ut cumque dicta
+                                rerum incidunt, quibusdam dolorem quos vitae impedit, modi repellat, repellendus
+                                doloribus. Suscipit nulla nobis inventore consectetur autem pariatur?
+                            </blockquote>
+                            <div class="testimonials__author">
+                                <div class="testimonials__author-photo">
+                                    <img src="assets/images/about.jpg" alt="">
+                                </div>
+                                <div class="testimonials__author-info">
+                                    <h3>Oleh Shashkevych</h3>
+                                    <p>Mediator, Systemic Coach, Supervisor & Consultant</p>
+                                </div>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="testimonials__item">
+                        <article class="testimonials__article">
+                            <blockquote class="testimonials__blockquote">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates dolorem eos sint
+                                architecto laudantium a dignissimos. Nulla minus praesentium ex vel eligendi. Laborum ex
+                                nam sit consectetur dicta dolorem quibusdam?
+                            </blockquote>
+                            <div class="testimonials__author">
+                                <div class="testimonials__author-photo">
+                                    <img src="assets/images/about.jpg" alt="">
+                                </div>
+                                <div class="testimonials__author-info">
+                                    <h3>Oleh Shashkevych</h3>
+                                    <p>Mediator, Systemic Coach, Supervisor & Consultant</p>
+                                </div>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="testimonials__item">
+                        <article class="testimonials__article">
+                            <blockquote class="testimonials__blockquote">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi architecto saepe
+                                sequi, beatae nostrum debitis, dignissimos id dicta necessitatibus corrupti laborum
+                                explicabo quas recusandae quidem dolore voluptates ad, velit illo! Lorem ipsum dolor sit
+                                amet consectetur adipisicing elit. Sit animi, esse perferendis iste debitis numquam,
+                                accusamus voluptates voluptas aliquam ad dolorem reiciendis recusandae inventore ipsa,
+                                sapiente blanditiis quam? Veniam, sit!
+                            </blockquote>
+                            <div class="testimonials__author">
+                                <div class="testimonials__author-photo">
+                                    <img src="assets/images/about.jpg" alt="">
+                                </div>
+                                <div class="testimonials__author-info">
+                                    <h3>Oleh Shashkevych</h3>
+                                    <p>Mediator, Systemic Coach, Supervisor & Consultant</p>
+                                </div>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="testimonials__item">
+                        <article class="testimonials__article">
+                            <blockquote class="testimonials__blockquote">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam expedita optio
+                                inventore doloribus sapiente impedit quod voluptatibus ipsa laudantium ad? Cupiditate
+                                natus distinctio veniam praesentium dolor excepturi laborum iste similique.
+                            </blockquote>
+                            <div class="testimonials__author">
+                                <div class="testimonials__author-photo">
+                                    <img src="assets/images/about.jpg" alt="">
+                                </div>
+                                <div class="testimonials__author-info">
+                                    <h3>Oleh Shashkevych</h3>
+                                    <p>Mediator, Systemic Coach, Supervisor & Consultant</p>
+                                </div>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="testimonials__item">
+                        <article class="testimonials__article">
+                            <blockquote class="testimonials__blockquote">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo tempore similique
+                                molestias, iste eligendi soluta accusamus praesentium quod ab cupiditate aliquid!
+                                Dolorem magnam corporis animi error ratione minus mollitia.
+                            </blockquote>
+                            <div class="testimonials__author">
+                                <div class="testimonials__author-photo">
+                                    <img src="assets/images/about.jpg" alt="">
+                                </div>
+                                <div class="testimonials__author-info">
+                                    <h3>Oleh Shashkevych</h3>
+                                    <p>Mediator, Systemic Coach, Supervisor & Consultant</p>
+                                </div>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <div class="container services__container">
+                <div class="services__inner">
+                    <p class="services__pill pill">Послуги</p>
+                    <div class="services__heading">
+                        <h2 class="heading-2">Розробка бачень,<br>створення вебсайтів</h2>
+                    </div>
+                    <p class="services__text text">Займіть своє місце, пристебніть ремінь безпеки та приєднуйтесь до мене в космічну подорож, щоб <span class="light-color">перетворити бачення вашого вебсайту на реальність нового рівня.</span></p>
+                </div>
+                <div class="services__grid">
+                    <a href="#contact" class="services__grid-item">
+                        <div class="services__grid-cursor"></div>
+                        <div class="services__grid-content">
+                            <div>
+                                <h3>Лендінг</h3>
+                                <h4>$150<span>*</span></h4>
+                                <p>Давайте разом обговоримо проєкт на основі масштабу вашого бачення!</p>
+                                <ul>
+                                    <li>
+                                        <svg class="services__icon-check" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"></path>
+                                            <path d="M8 11.8571L10.5 14.3572L15.8572 9"></path>
+                                        </svg>
+                                        Сучасні принципи розробки
+                                    </li>
+                                    <li>
+                                        <svg class="services__icon-check" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"></path>
+                                            <path d="M8 11.8571L10.5 14.3572L15.8572 9"></path>
+                                        </svg>
+                                        Оптимізація під Pagespeed
+                                    </li>
+                                    <li>
+                                        <svg class="services__icon-check" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"></path>
+                                            <path d="M8 11.8571L10.5 14.3572L15.8572 9"></path>
+                                        </svg>
+                                        Анімація та взаємодія
+                                    </li>
+                                    <li>
+                                        <svg class="services__icon-check" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"></path>
+                                            <path d="M8 11.8571L10.5 14.3572L15.8572 9"></path>
+                                        </svg>
+                                        Адаптив, мобільна версія та доступність
+                                    </li>
+                                    <li>
+                                        <svg class="services__icon-check" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"></path>
+                                            <path d="M8 11.8571L10.5 14.3572L15.8572 9"></path>
+                                        </svg>
+                                        Розробка за вашим дизайном або референсами
+                                    </li>
+                                    <li>
+                                        <svg class="services__icon-check" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"></path>
+                                            <path d="M8 11.8571L10.5 14.3572L15.8572 9"></path>
+                                        </svg>
+                                        Оперативний зв'язок через месенджери
+                                    </li>
+                                    <li>
+                                        <svg class="services__icon-check" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"></path>
+                                            <path d="M8 11.8571L10.5 14.3572L15.8572 9"></path>
+                                        </svg>
+                                        Строк здачі від 2 днів
+                                    </li>
+                                    <li>
+                                        <svg class="services__icon-plus" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"></path>
+                                            <path d="M12,7.645L12,16.355M16.355,12L7.645,12"></path>
+                                        </svg>
+                                        Під'єднання CMS | $150
+                                    </li>
+                                    <li>
+                                        <svg class="services__icon-plus" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"></path>
+                                            <path d="M12,7.645L12,16.355M16.355,12L7.645,12"></path>
+                                        </svg>
+                                        Мультимовність | $100
+                                    </li>
+                                    <li>
+                                        <svg class="services__icon-plus" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"></path>
+                                            <path d="M12,7.645L12,16.355M16.355,12L7.645,12"></path>
+                                        </svg>
+                                        Налаштування хостингу та домену | $200
+                                    </li>
+                                </ul>
+                                <small>* початкова ціна може змінюватися в залежності від обсягу проекту</small>
+                            </div>
+                            <p>
+                                Забронюйте свій пакет послуг зараз
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    aria-hidden="true" data-slot="icon"
+                                    class="ms-2 size-5 transition duration-300 group-hover/card:translate-x-1/4 group-focus-visible/card:translate-x-1/4">
+                                    <path fill-rule="evenodd"
+                                        d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#contact" class="services__grid-item">
+                        <div class="services__grid-cursor"></div>
+                        <div class="services__grid-content">
+                            <div>
+                                <h3>Вебсайт</h3>
+                                <h4>$750<span>*</span></h4>
+                                <p>Немає обмежень для бачення вашого вебсайту ― давайте здійснимо це!</p>
+                                <ul>
+                                    <li>
+                                        <svg class="services__icon-check" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"></path>
+                                            <path d="M8 11.8571L10.5 14.3572L15.8572 9"></path>
+                                        </svg>
+                                        Сучасні принципи розробки
+                                    </li>
+                                    <li>
+                                        <svg class="services__icon-check" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"></path>
+                                            <path d="M8 11.8571L10.5 14.3572L15.8572 9"></path>
+                                        </svg>
+                                        Оптимізація під Pagespeed
+                                    </li>
+                                    <li>
+                                        <svg class="services__icon-check" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"></path>
+                                            <path d="M8 11.8571L10.5 14.3572L15.8572 9"></path>
+                                        </svg>
+                                        Анімація та взаємодія
+                                    </li>
+                                    <li>
+                                        <svg class="services__icon-check" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"></path>
+                                            <path d="M8 11.8571L10.5 14.3572L15.8572 9"></path>
+                                        </svg>
+                                        Адаптив, мобільна версія та доступність
+                                    </li>
+                                    <li>
+                                        <svg class="services__icon-check" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"></path>
+                                            <path d="M8 11.8571L10.5 14.3572L15.8572 9"></path>
+                                        </svg>
+                                        Розробка за вашим дизайном або референсами
+                                    </li>
+                                    <li>
+                                        <svg class="services__icon-check" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"></path>
+                                            <path d="M8 11.8571L10.5 14.3572L15.8572 9"></path>
+                                        </svg>
+                                        Оперативний зв'язок через месенджери
+                                    </li>
+                                    <li>
+                                        <svg class="services__icon-check" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"></path>
+                                            <path d="M8 11.8571L10.5 14.3572L15.8572 9"></path>
+                                        </svg>
+                                        Строк здачі від 5 днів
+                                    </li>
+                                    <li>
+                                        <svg class="services__icon-check" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"></path>
+                                            <path d="M8 11.8571L10.5 14.3572L15.8572 9"></path>
+                                        </svg>
+                                        Створення до 10 унікальних сторінок
+                                    </li>
+                                    <li>
+                                        <svg class="services__icon-plus" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"></path>
+                                            <path d="M12,7.645L12,16.355M16.355,12L7.645,12"></path>
+                                        </svg>
+                                        Додаткова сторінка сайту (від 10 сторінок) | $150
+                                    </li>
+                                    <li>
+                                        <svg class="services__icon-plus" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"></path>
+                                            <path d="M12,7.645L12,16.355M16.355,12L7.645,12"></path>
+                                        </svg>
+                                        Під'єднання CMS | $300
+                                    </li>
+                                    <li>
+                                        <svg class="services__icon-plus" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"></path>
+                                            <path d="M12,7.645L12,16.355M16.355,12L7.645,12"></path>
+                                        </svg>
+                                        Мультимовність | $200
+                                    </li>
+                                    <li>
+                                        <svg class="services__icon-plus" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"></path>
+                                            <path d="M12,7.645L12,16.355M16.355,12L7.645,12"></path>
+                                        </svg>
+                                        Налаштування хостингу та домену | $200
+                                    </li>
+                                </ul>
+                                <small>* початкова ціна може змінюватися в залежності від обсягу проекту</small>
+                            </div>
+                            <p>
+                                Забронюйте свій пакет послуг зараз
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    aria-hidden="true" data-slot="icon"
+                                    class="ms-2 size-5 transition duration-300 group-hover/card:translate-x-1/4 group-focus-visible/card:translate-x-1/4">
+                                    <path fill-rule="evenodd"
+                                        d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#contact" class="services__grid-item">
+                        <div class="services__grid-cursor"></div>
+                        <div class="services__grid-content">
+                            <div>
+                                <h3>Підтримка проєкту</h3>
+                                <h4>$15 на годину</h4>
+                                <p>У вже є сайт, але немає розробника, який би міг допомогти в складний час? Тепер він є!</p>
+                                <ul>
+                                    <li>
+                                        <svg class="services__icon-check" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"></path>
+                                            <path d="M8 11.8571L10.5 14.3572L15.8572 9"></path>
+                                        </svg>
+                                        Регулярне оновлення плагінів
+                                    </li>
+                                    <li>
+                                        <svg class="services__icon-check" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"></path>
+                                            <path d="M8 11.8571L10.5 14.3572L15.8572 9"></path>
+                                        </svg>
+                                        Доробка функціоналу за індивідуальними вимогами
+                                    </li>
+                                    <li>
+                                        <svg class="services__icon-check" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"></path>
+                                            <path d="M8 11.8571L10.5 14.3572L15.8572 9"></path>
+                                        </svg>
+                                        Моніторинг та виправлення помилок
+                                    </li>
+                                    <li>
+                                        <svg class="services__icon-check" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"></path>
+                                            <path d="M8 11.8571L10.5 14.3572L15.8572 9"></path>
+                                        </svg>
+                                        Оптимізація швидкості завантаження сайту
+                                    </li>
+                                    <li>
+                                        <svg class="services__icon-check" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"></path>
+                                            <path d="M8 11.8571L10.5 14.3572L15.8572 9"></path>
+                                        </svg>
+                                        Резервне копіювання та відновлення даних
+                                    </li>
+                                    <li>
+                                        <svg class="services__icon-check" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"></path>
+                                            <path d="M8 11.8571L10.5 14.3572L15.8572 9"></path>
+                                        </svg>
+                                        Оновлення контенту та управління медіа-файлами
+                                    </li>
+                                    <li>
+                                        <svg class="services__icon-check" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"></path>
+                                            <path d="M8 11.8571L10.5 14.3572L15.8572 9"></path>
+                                        </svg>
+                                        Консультації та технічна підтримка
+                                    </li>
+                                    <li>
+                                        <svg class="services__icon-check" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"></path>
+                                            <path d="M8 11.8571L10.5 14.3572L15.8572 9"></path>
+                                        </svg>
+                                        Підключення CMS
+                                    </li>
+                                    <li>
+                                        <svg class="services__icon-check" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                            <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"></path>
+                                            <path d="M8 11.8571L10.5 14.3572L15.8572 9"></path>
+                                        </svg>
+                                        Реєстрація домену та хостингу
+                                    </li>
+                                </ul>
+                            </div>
+                            <p>
+                                Забронюйте свій пакет послуг зараз
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    aria-hidden="true" data-slot="icon"
+                                    class="ms-2 size-5 transition duration-300 group-hover/card:translate-x-1/4 group-focus-visible/card:translate-x-1/4">
+                                    <path fill-rule="evenodd"
+                                        d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#contact" class="services__grid-item">
+                        <div class="services__grid-cursor"></div>
+                        <div class="services__grid-content">
+                            <div>
+                                <h3>Апгрейди та оновлення</h3>
+                                <h4>Індивідуальна ціна</h4>
+                                <p>У вас є завдання, яке треба вирішити терміново, проєкт який треба вдосконалити, нестандартні разові задачі? Давайте обговоримо, як я можу вам допомогти!</p>
+                            </div>
+                            <p>
+                                Забронюйте свій пакет послуг зараз
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    aria-hidden="true" data-slot="icon"
+                                    class="ms-2 size-5 transition duration-300 group-hover/card:translate-x-1/4 group-focus-visible/card:translate-x-1/4">
+                                    <path fill-rule="evenodd"
+                                        d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container contact__container">
+                <div class="contact__inner">
+                    <div class="contact__grid">
+                        <div class="contact__description">
+                            <p class="contact__description-pill pill">Зв'язок</p>
+                            <div class="contact__description-heading">
+                                <h2 class="heading-2">Є проблема яку потрібно вирішити
+                                    ?</h2>
+                            </div>
+                            <p class="contact__description-text text">Приготуйте свій скафандр і розкажіть мені про свої ідеї щодо розробки <span class="light-color">вебсайту вашої мрії</span>.</p>
+                        </div>
+                        <div class="contact__form-wrapper">
+                            <form class="contact__form">
+                                <fieldset>
+                                    <div>
+                                        <label for="form_name">Ім'я</label>
+                                        <input type="text" name="form_name" id="form_name">
+                                    </div>
+                                    <div>
+                                        <label for="form_email">Email</label>
+                                        <input type="email" name="form_email" id="form_email">
+                                    </div>
+                                    <div>
+                                        <label for="form_message">Повідомлення</label>
+                                        <textarea name="message" id="form_message"></textarea>
+                                    </div>
+                                    <div>
+                                        <a href="mailto:oleh.shashkevych@outlook.com">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon"><path d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z"></path><path d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z"></path></svg>
+                                            oleh.shashkevych@outlook.com
+                                        </a>
+                                        <button>
+                                            Написати
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon"><path fill-rule="evenodd" d="M9.315 7.584C12.195 3.883 16.695 1.5 21.75 1.5a.75.75 0 0 1 .75.75c0 5.056-2.383 9.555-6.084 12.436A6.75 6.75 0 0 1 9.75 22.5a.75.75 0 0 1-.75-.75v-4.131A15.838 15.838 0 0 1 6.382 15H2.25a.75.75 0 0 1-.75-.75 6.75 6.75 0 0 1 7.815-6.666ZM15 6.75a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5Z" clip-rule="evenodd"></path><path d="M5.26 17.242a.75.75 0 1 0-.897-1.203 5.243 5.243 0 0 0-2.05 5.022.75.75 0 0 0 .625.627 5.243 5.243 0 0 0 5.022-2.051.75.75 0 1 0-1.202-.897 3.744 3.744 0 0 1-3.008 1.51c0-1.23.592-2.323 1.51-3.008Z"></path></svg>
+                                        </button>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </section>
+
+        <section class="source" id="source">
+            <div class="source__canvas">
+                <canvas id="sourceMatrix"></canvas>
+            </div>
+            <div class="container source__container">
+                <div class="source__inner">
+                    <p class="source__description-pill pill">Вихідний код</p>
+                    <div class="source__description-heading">
+                        <h2 class="heading-2">Поза симуляцією</h2>
+                    </div>
+                    <p class="source__description-text text">Ви приймаєте <span class="light-color">блакитну пігулку</span> - продовжуєте прокручувати сторінку, залишаєте цей сайт і вірите у все, у що хочете вірити. Ви приймаєте <span class="light-color">червону пігулку</span> - залишаєтеся в країні чудес, а я показую вам, наскільки глибока кроляча нора.</p>
+                    <a href="#" class="source__button">Покажи мені</a>
+                </div>                
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__logo">
+                <a href="/" class="footer__img">
+                    <img src="assets/images/about.jpg" alt="">
+                </a>
+            </div>
+            <hr class="hr">
+            <nav class="footer__nav">
+                <a href="#about" class="footer__link">
+                    About
+                </a>
+                <a href="#work" class="footer__link">
+                    Work
+                </a>
+                <a href="#testimonials" class="footer__link">
+                    Customer Stories
+                </a>
+                <a href="#services" class="footer__link">
+                    Services
+                </a>
+                <a href="#contact" class="footer__link">
+                    Contact
+                </a>
+                <a href="#source" class="footer__link">
+                    Source code
+                </a>
+                <a href="#" class="footer__link">
+                    Blog
+                </a>
+            </nav>
+            <hr class="hr">
+            <div class="footer__bottom">
+                <div class="footer__copyright">
+                    <small>© 2024 Oleh Shashkevych</small>
+                </div>
+                <ul class="footer__social">
+                    <li class="footer__social-item">
+                        <a href="https://t.me/oleh_shashkevych" class="footer__social-link" target="_blank">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM12.3583 9.38244C11.3857 9.787 9.44177 10.6243 6.52657 11.8944C6.05318 12.0827 5.8052 12.2669 5.78263 12.4469C5.74448 12.7513 6.12559 12.8711 6.64455 13.0343C6.71515 13.0565 6.78829 13.0795 6.86327 13.1038C7.37385 13.2698 8.06068 13.464 8.41773 13.4717C8.74161 13.4787 9.1031 13.3452 9.50219 13.0711C12.226 11.2325 13.632 10.3032 13.7202 10.2831C13.7825 10.269 13.8688 10.2512 13.9273 10.3032C13.9858 10.3552 13.98 10.4536 13.9738 10.48C13.9361 10.641 12.4401 12.0318 11.6659 12.7515C11.4246 12.9759 11.2534 13.135 11.2184 13.1714C11.14 13.2528 11.0601 13.3298 10.9833 13.4038C10.509 13.8611 10.1532 14.204 11.003 14.764C11.4114 15.0331 11.7381 15.2556 12.0641 15.4776C12.4201 15.7201 12.7752 15.9619 13.2347 16.2631C13.3517 16.3398 13.4635 16.4195 13.5724 16.4971C13.9867 16.7925 14.3589 17.0579 14.8188 17.0155C15.086 16.991 15.362 16.7397 15.5022 15.9903C15.8335 14.2193 16.4847 10.382 16.6352 8.80081C16.6484 8.66228 16.6318 8.48498 16.6185 8.40715C16.6051 8.32932 16.5773 8.21842 16.4761 8.13633C16.3563 8.03911 16.1714 8.01861 16.0886 8.02C15.7125 8.0267 15.1354 8.22735 12.3583 9.38244Z" fill="#a196c0"></path> </g></svg>
+                        </a>
+                    </li>                    
+                    <li class="footer__social-item">
+                        <a href="https://wa.me/380975707080" class="footer__social-link" target="_blank">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M2 22L3.41152 16.8691C2.54422 15.3639 2.08876 13.6568 2.09099 11.9196C2.08095 6.44549 6.52644 2 11.99 2C14.6417 2 17.1315 3.02806 19.0062 4.9034C19.9303 5.82266 20.6627 6.91616 21.1611 8.12054C21.6595 9.32492 21.9139 10.6162 21.9096 11.9196C21.9096 17.3832 17.4641 21.8287 12 21.8287C10.3368 21.8287 8.71374 21.4151 7.26204 20.6192L2 22ZM7.49424 18.8349L7.79675 19.0162C9.06649 19.7676 10.5146 20.1644 11.99 20.1654C16.5264 20.1654 20.2263 16.4662 20.2263 11.9291C20.2263 9.73176 19.3696 7.65554 17.8168 6.1034C17.0533 5.33553 16.1453 4.72636 15.1453 4.31101C14.1452 3.89565 13.0728 3.68232 11.99 3.68331C7.44343 3.6839 3.74476 7.38316 3.74476 11.9202C3.74476 13.4724 4.17843 14.995 5.00502 16.3055L5.19645 16.618L4.35982 19.662L7.49483 18.8354L7.49424 18.8349Z" fill="#a196c0"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M9.52024 7.76662C9.33885 7.35303 9.13737 7.34298 8.96603 7.34298C8.81477 7.33294 8.65288 7.33294 8.48154 7.33294C8.32083 7.33294 8.04845 7.39321 7.81684 7.64549C7.58464 7.89719 6.95007 8.49217 6.95007 9.71167C6.95007 10.9318 7.83693 12.1111 7.95805 12.2724C8.07858 12.4337 9.67149 15.0139 12.192 16.0124C14.2883 16.839 14.712 16.6777 15.1657 16.6269C15.6189 16.5767 16.6275 16.0325 16.839 15.4476C17.0405 14.8733 17.0405 14.3693 16.9802 14.2682C16.9199 14.1678 16.748 14.1069 16.5064 13.9758C16.2541 13.8552 15.0446 13.2502 14.813 13.1693C14.5808 13.0889 14.4195 13.0487 14.2582 13.2904C14.0969 13.5427 13.623 14.0969 13.4724 14.2582C13.3306 14.4195 13.1799 14.4396 12.9377 14.3185C12.686 14.1979 11.8895 13.9356 10.9418 13.0889C10.2056 12.4331 9.71167 11.6171 9.56041 11.3755C9.41979 11.1232 9.54032 10.992 9.67149 10.8709C9.78257 10.7604 9.92378 10.579 10.0449 10.4378C10.1654 10.296 10.2056 10.1855 10.2966 10.0242C10.377 9.86292 10.3368 9.71167 10.2765 9.59114C10.2157 9.48006 9.74239 8.25997 9.52024 7.76603V7.76662Z" fill="#a196c0"></path> </g></svg>
+                        </a>
+                    </li>                    
+                    <li class="footer__social-item">
+                        <a href="https://github.com/oleh-shashkevych" class="footer__social-link" target="_blank">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.475 2 2 6.475 2 12C2 16.425 4.8625 20.1625 8.8375 21.4875C9.3375 21.575 9.525 21.275 9.525 21.0125C9.525 20.775 9.5125 19.9875 9.5125 19.15C7 19.6125 6.35 18.5375 6.15 17.975C6.0375 17.6875 5.55 16.8 5.125 16.5625C4.775 16.375 4.275 15.9125 5.1125 15.9C5.9 15.8875 6.4625 16.625 6.65 16.925C7.55 18.4375 8.9875 18.0125 9.5625 17.75C9.65 17.1 9.9125 16.6625 10.2 16.4125C7.975 16.1625 5.65 15.3 5.65 11.475C5.65 10.3875 6.0375 9.4875 6.675 8.7875C6.575 8.5375 6.225 7.5125 6.775 6.1375C6.775 6.1375 7.6125 5.875 9.525 7.1625C10.325 6.9375 11.175 6.825 12.025 6.825C12.875 6.825 13.725 6.9375 14.525 7.1625C16.4375 5.8625 17.275 6.1375 17.275 6.1375C17.825 7.5125 17.475 8.5375 17.375 8.7875C18.0125 9.4875 18.4 10.375 18.4 11.475C18.4 15.3125 16.0625 16.1625 13.8375 16.4125C14.2 16.725 14.5125 17.325 14.5125 18.2625C14.5125 19.6 14.5 20.675 14.5 21.0125C14.5 21.275 14.6875 21.5875 15.1875 21.4875C17.1727 20.8173 18.8977 19.5415 20.1198 17.8395C21.3419 16.1376 21.9995 14.0953 22 12C22 6.475 17.525 2 12 2Z" fill="#a196c0"></path> </g></svg>
+                        </a>
+                    </li>                    
+                </ul>
+                <nav class="footer__imprint">
+                    <a href="#">
+                        Imprint
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/scripts/main.js"></script>
+</body>
+
+</html>
